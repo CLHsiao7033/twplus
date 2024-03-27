@@ -7,7 +7,7 @@ https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
 /etc/apt/sources.list.d/jenkins.list > /dev/null
 
 sudo apt-get update
-sudo apt-get install -y fontconfig openjdk-17-jre
+sudo apt-get install -y fontconfig openjdk-11-jre
 sudo apt-get install -y jenkins=2.426.1
 
 echo "Install Done"
